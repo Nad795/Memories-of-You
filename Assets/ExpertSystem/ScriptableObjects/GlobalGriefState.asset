@@ -19,5 +19,11 @@ MonoBehaviour:
   questionCount: 0
   consecutiveHardDenial: 0
   aggressiveChoiceCount: 0
+  denialChoiceCount: 0
   internalizedAngerCount: 0
   falseHopeChoiceCount: 0
+  ruminationChoiceCount: 0
+  beggingChoiceCount: 0
+  avoidanceChoiceCount: 0
+  passiveSuicidalChoiceCount: 0
+  rationalChoiceCount: 0

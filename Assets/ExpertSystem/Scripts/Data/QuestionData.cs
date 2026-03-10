@@ -25,7 +25,7 @@ public class Choice
     public string choiceText; //teks opsi jawaban pemain
 
     [TextArea(2, 3)]
-    public string systemResponse; //teks balasan puitis dari sistem
+    public string systemResponse; //teks balasan dari sistem
 
     [Header("Efek Perubahan Emosi")]
     public float addDistress;
