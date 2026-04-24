@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 5_Q10_Nama
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Temanmu tidak sengaja menyebut namanya dalam percakapan. Dulu jantungmu
+    langsung berdebar kencang dan sakit.
+
+'
+  choices:
+  - choiceText: 'Aku mendengarnya seperti mendengar nama teman SD yang sudah lama
+      tidak bertemu. Akrab, tapi jauh.
+
+'
+    systemResponse: Nama itu kehilangan sengatnya. Kini hanya sekadar kumpulan huruf.
+    addDistress: -15
+    addDenial: 0
+    addRumination: -15
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku bahkan bisa ikut tersenyum tipis dan menimpali percakapan itu
+      tanpa rasa canggung.
+
+'
+    systemResponse: Kamu sudah bisa membicarakan 'hantu' itu tanpa merasa takut.
+    addDistress: 0
+    addDenial: -10
+    addRumination: 0
+    addHope: 15
+    category: 0
+  - choiceText: Ada desiran halus di dada, tapi bukan sakit. Cuma pengingat bahwa
+      dia pernah ada, lalu hilang secepat datangnya.
+    systemResponse: Kamu mengakui riak kecil itu tanpa membiarkannya jadi ombak besar.
+    addDistress: -5
+    addDenial: 0
+    addRumination: -10
+    addHope: 0
+    category: 0

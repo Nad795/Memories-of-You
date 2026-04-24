@@ -25,17 +25,20 @@ MonoBehaviour:
     addRumination: 0
     addHope: 10
     category: 1
-  - choiceText: 
-    systemResponse: 
+  - choiceText: Sepertinya dia sedang ada masalah yang tidak kuketahui, semoga dia
+      baik-baik saja. Manusia butuh ruang.
+    systemResponse: '"Kamu mencoba memahaminya secara dewasa, meski hatimu sendiri
+      penuh tanda tanya.'
     addDistress: 0
-    addDenial: 0
-    addRumination: 0
+    addDenial: 5
+    addRumination: 15
     addHope: 0
     category: 0
-  - choiceText: 
-    systemResponse: 
-    addDistress: 0
-    addDenial: 0
+  - choiceText: Sepertinya dia tidak nyaman dengan kehadiranku, seperti sedang menjaga
+      jarak.
+    systemResponse: Instingmu berteriak ada yang salah.
+    addDistress: 15
+    addDenial: -10
     addRumination: 0
-    addHope: 0
+    addHope: -10
     category: 0

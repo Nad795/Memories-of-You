@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q4_Lucu
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kalau dipikir-pikir, apakah menurutmu selama ini dia sering merendahkanmu
+    lewat candaannya yang katanya lucu?
+
+'
+  choices:
+  - choiceText: 'Iya, aku baru sadar. Candaannya sering membicarakan fisik dan menghina
+      kecerdasanku. Itu penghinaan. Darahku mendidih mengingatnya.
+
+'
+    systemResponse: Kaca mata 'cinta buta' itu akhirnya pecah. Kamu melihat monster
+      aslinya.
+    addDistress: 0
+    addDenial: -20
+    addRumination: 15
+    addHope: 0
+    category: 0
+  - choiceText: Aku merasa bodoh sekali. Kenapa dulu aku diam saja dan malah ikut
+      tertawa?
+    systemResponse: Jangan memukul dirimu yang dulu. Dia saat itu hanya berusaha
+      bertahan.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 10
+    addHope: 0
+    category: 5
+  - choiceText: 'Mungkin dia tidak bermaksud jahat, selera humornya memang begitu...
+      walau sakit sih.
+
+'
+    systemResponse: Kamu masih saja menjadi pengacaranya, membela dia yang sudah
+      melukaimu.
+    addDistress: 0
+    addDenial: 10
+    addRumination: 0
+    addHope: 5
+    category: 0

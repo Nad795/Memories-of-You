@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q4_Minggu
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Hari ini hari minggu. Rambutmu lepek, bajumu kusut, dan kamu sadar
+    belum mandi seharian. Kamu melihat pantulanmu di cermin kamar mandi.
+
+'
+  choices:
+  - choiceText: '"Menyedihkan." Aku memalingkan muka karena jijik melihat diriku
+      sendiri yang berantakan begini.
+
+'
+    systemResponse: Kamu menjadi hakim terkejam bagi bayanganmu sendiri di cermin.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 20
+    addHope: 0
+    category: 0
+  - choiceText: Aku nyalakan keran air, tapi cuma cuci muka. Mandi rasanya seperti
+      tugas berat yang harus dipersiapkan mentalnya.
+    systemResponse: Tugas sederhana bagi orang lain adalah gunung yang harus kamu
+      daki.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: 'Biarin aja. Siapa juga yang mau lihat aku? Nggak ada gunanya tampil
+      rapi.
+
+'
+    systemResponse: Kamu melepaskan topeng sosialmu. Inilah wujud asli kesedihanmu.
+    addDistress: 5
+    addDenial: -10
+    addRumination: 0
+    addHope: 0
+    category: 0

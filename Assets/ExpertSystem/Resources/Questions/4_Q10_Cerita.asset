@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q10_Cerita
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kamu ingin cerita ke teman dekatmu tentang betapa hancurnya perasaanmu
+    saat ini, tapi kamu mengurungkan niat itu.
+
+'
+  choices:
+  - choiceText: 'Percuma. Mereka pasti bosan dengar aku sedih terus. Aku nggak mau
+      jadi teman yang nyusahin (toxic).
+
+'
+    systemResponse: Kamu membungkam mulutmu sendiri karena takut menjadi beban bagi
+      orang lain.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 20
+    addHope: 0
+    category: 0
+  - choiceText: 'Mereka nggak akan ngerti. Paling cuma dijawab "Sabar ya" atau "Semangat".
+      Kata-kata itu nggak ada gunanya.
+
+'
+    systemResponse: Kamu tahu bahwa kata-kata penyemangat hanya akan terdengar kosong
+      di telingamu.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 0
+    addHope: -10
+    category: 0
+  - choiceText: 'Aku memilih diam bukan karena takut, tapi karena aku butuh memproses
+      ini sendirian dulu. Nggak semua harus diceritain.
+
+'
+    systemResponse: Kamu memilih hening untuk merenung, bukan untuk mengisolasi diri.
+      Ada bedanya.
+    addDistress: 0
+    addDenial: -5
+    addRumination: -10
+    addHope: 0
+    category: 0

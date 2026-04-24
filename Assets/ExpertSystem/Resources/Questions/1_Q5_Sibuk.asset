@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 1_Q5_Sibuk
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Dia bilang dia sedang sibuk, tetapi kamu melihatnya pergi bersama
+    yang lain. Apakah mungkin waktunya saja yang tidak pas?
+  choices:
+  - choiceText: Mungkin kebetulan dia sedang luang ketika temannya mengajak dia pergi,
+      sedangkan waktunya selalu tidak pas ketika denganku.
+    systemResponse: Kamu menyusun alasan demi alasan. Apa saja, asal dia tetap terlihat
+      baik di matamu.
+    addDistress: 0
+    addDenial: 20
+    addRumination: 10
+    addHope: 0
+    category: 0
+  - choiceText: Wajar dia butuh refreshing sama teman-temannya yang lain.
+    systemResponse: Kamu mentoleransi perbuatan dia.
+    addDistress: 5
+    addDenial: 5
+    addRumination: 15
+    addHope: 0
+    category: 0
+  - choiceText: Kurasa aku sudah bukan prioritasnya lagi seperti dulu.
+    systemResponse: Realita itu menghantammu telak di ulu hati.
+    addDistress: 25
+    addDenial: -20
+    addRumination: 0
+    addHope: 0
+    category: 0

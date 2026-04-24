@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 1_Q8_Airmata
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Tiba-tiba, saat sedang makan, air matamu menetes tanpa alasan jelas.
+
+'
+  choices:
+  - choiceText: Ah, ini pasti karena makanannya terlalu pedas. Aku nggak nangis kok.
+    systemResponse: Kebohongan yang bahkan tidak dipercayai oleh cermin di depanmu.
+    addDistress: -5
+    addDenial: 20
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: 'Kenapa aku cengeng sekali? Padahal aku sudah janji nggak akan nangis
+      lagi.
+
+'
+    systemResponse: Kamu menganggap air mata adalah kelemahan, padahal itu adalah
+      kejujuran.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 15
+    addHope: 0
+    category: 0
+  - choiceText: 'Ternyata pura-pura kuat itu melelahkan ya... Rasanya sakit sekali.
+
+'
+    systemResponse: Bendungan itu akhirnya jebol. Kamu membiarkan dirimu hancur sebentar.
+    addDistress: 20
+    addDenial: -20
+    addRumination: 0
+    addHope: 0
+    category: 0

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q3_Post
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: "Kamu berniat memposting sesuatu di  story. Kamu ingin menggunakan
+    lagu ini, tetapi lagu tersebut adalah lagu kenangan dan kesukaan kalian berdua.
+    \r\n"
+  choices:
+  - choiceText: 'Ini kode keras. Aku harap dia melihatnya, ingat kenangan kita, lalu
+      hatinya luluh dan nge-chat aku lagi.
+
+'
+    systemResponse: Kamu melempar kail ke kolam yang kering, berharap ikan akan melompat.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 10
+    addHope: 20
+    category: 0
+  - choiceText: 'Aku cuma mau dia tahu kalau aku masih memikirkan dia, tanpa harus
+      aku yang chat duluan.
+
+'
+    systemResponse: Kamu menyalakan api kecil, berharap dia melihat asapnya dari
+      kejauhan.
+    addDistress: 0
+    addDenial: 10
+    addRumination: 0
+    addHope: 5
+    category: 0
+  - choiceText: 'Tidak jadi post. Nanti aku telrihat menyedihkan dan sangat memikirkan
+      dia.
+
+'
+    systemResponse: Rasa malu menahan jarimu. Kamu takut terlihat lemah di matanya.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 15
+    addHope: 0
+    category: 0

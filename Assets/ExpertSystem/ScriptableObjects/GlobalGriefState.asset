@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b4c2ce5bdd31a443a096f89ab94bb70, type: 3}
   m_Name: GlobalGriefState
   m_EditorClassIdentifier: Assembly-CSharp::GriefState
-  distress: 0
+  distress: -10
   denial: 0
   rumination: 0
   hope: 0
@@ -27,3 +27,5 @@ MonoBehaviour:
   avoidanceChoiceCount: 0
   passiveSuicidalChoiceCount: 0
   rationalChoiceCount: 0
+  finalEndingName: 
+  isEndingTriggered: 0

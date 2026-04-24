@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q6_Teman
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kamu terpikirkan suatu ide, bagaimana jika mencoba menghubungi teman
+    dekatnya untuk menanyakan kabar dia?
+
+'
+  choices:
+  - choiceText: 'Aku perlu tahu apa yang sebenarnya dia rasakan. Temannya pasti punya
+      kunci jawabannya.
+
+'
+    systemResponse: Kamu menjadi detektif untuk kasus yang sudah ditutup.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 25
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku mau minta tolong temannya buat bujuk dia untuk kembali bersahabat
+      denganku.
+
+'
+    systemResponse: Kamu mencoba meminjam suara orang lain karena suaramu tak lagi
+      didengar.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 0
+    addHope: 20
+    category: 0
+  - choiceText: 'Jangan libatkan orang lain. Itu malah bikin dia ilfeel dan merasa
+      dimata-matai.
+
+'
+    systemResponse: Kamu sadar bahwa memaksakan kehendak hanya akan memperburuk keadaan.
+    addDistress: 5
+    addDenial: 0
+    addRumination: -5
+    addHope: 0
+    category: 0

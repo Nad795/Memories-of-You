@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q10_Curhat
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: "Kamu curhat berapi-api tentang kejahatan si dia. Tapi temanmu malah
+    merespons, \"Yaah, tapi kan dia juga manusia, mungkin dia punya alasan sendiri\u2026\u201D
+    Mendengar temanmu membela musuhmu membuat amarahmu beralih sasaran."
+  choices:
+  - choiceText: "\u201CKamu nih temenku apa nggak sih?! Kalau kamu gak bisa mihak
+      aku, mending kamu diem aja!\"\r\n"
+    systemResponse: Api amarahmu kini membakar orang-orang yang sebenarnya peduli
+      padamu.
+    addDistress: 25
+    addDenial: 0
+    addRumination: 0
+    addHope: 0
+    category: 3
+  - choiceText: '"Manusia sih manusia, tapi kalau jahat ya jahat! Jangan normalisasi
+      perilaku dia!"
+
+'
+    systemResponse: Kamu berjuang mati-matian agar rasa sakitmu divalidasi.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 15
+    addHope: 0
+    category: 0
+  - choiceText: "\u201CTerserah deh.\" (Kamu diam dan mencatat dalam hati untuk tidak
+      percaya temanmu lagi).\r\n"
+    systemResponse: Kamu menarik diri. Lingkaran kepercayaanmu makin mengecil.
+    addDistress: 5
+    addDenial: 0
+    addRumination: 20
+    addHope: 0
+    category: 0

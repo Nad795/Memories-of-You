@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q2_Nama
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Kamu sedang antre di kasir toko kopi ini, lalu barista memanggil
+    nama yang sama persis dengan nama si dia. Suara nama itu membuat telingamu berdenging.
+    Hanya mendengar namanya saja sudah membuat harimu rusak.
+  choices:
+  - choiceText: 'Refleks memutar bola mata dan mendengus kesal. "Kenapa sih nama
+      pasaran itu harus muncul di sini?"
+
+'
+    systemResponse: Nama itu kini menjadi kata kotor di kamusmu. Telingamu menolaknya.
+    addDistress: 5
+    addDenial: 0
+    addRumination: 15
+    addHope: 0
+    category: 3
+  - choiceText: 'Tiba-tiba mood-ku hancur. Rasanya ingin langsung pergi dan pulang
+      saja.
+
+'
+    systemResponse: Satu kata saja cukup untuk meruntuhkan pertahananmu hari ini.
+    addDistress: 20
+    addDenial: 5
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: '"Ih, najis banget denger nama itu."'
+    systemResponse: Rasa jijik adalah cara otakmu melindungimu dari rasa rindu.
+    addDistress: -5
+    addDenial: 0
+    addRumination: 20
+    addHope: 0
+    category: 0

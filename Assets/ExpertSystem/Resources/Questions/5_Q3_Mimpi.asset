@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 5_Q3_Mimpi
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Bagaimana mimpi dan karir yang sedang kamu rencanakan? Ceritakan
+    dong!
+  choices:
+  - choiceText: 'Aku punya cita-cita baru! Rasanya menyenangkan sekali punya energi
+      buat mikirin diriku sendiri lagi.
+
+'
+    systemResponse: Matahari akhirnya terbit di duniamu sendiri.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 0
+    addHope: 20
+    category: 0
+  - choiceText: 'Aku sedang eksplorasi banyak hal. Aku baru sadar dunia ini luas
+      banget di luar hubungan percintaan.
+
+'
+    systemResponse: Kamu kembali menjadi tokoh utama di ceritamu.
+    addDistress: 0
+    addDenial: 0
+    addRumination: -5
+    addHope: 15
+    category: 0
+  - choiceText: 'Aku baru sadar bahwa aku memiliki bakat terpendam! Aku sedang mendalami
+      bakat baruku itu
+
+'
+    systemResponse: Kamu mengubah lukamu menjadi karya. Itu adalah balas dendam terbaik.
+    addDistress: -10
+    addDenial: 0
+    addRumination: 0
+    addHope: 15
+    category: 0

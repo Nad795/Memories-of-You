@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q9_Ojek
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Tiba-tiba muncul keinginan untuk mengirimkan makanan atau kopi kesukaannya
+    lewat ojek online tanpa nama.
+
+'
+  choices:
+  - choiceText: Ide bagus! Dia pasti senang dan tahu itu dari aku. Itu langkah awal
+      buat baikan.
+    systemResponse: Kamu mencoba membeli kasih sayangnya dengan segelas kopi.
+    addDistress: 0
+    addDenial: 10
+    addRumination: 0
+    addHope: 20
+    category: 0
+  - choiceText: 'Sekadar kirim aja biar dia nggak lupa kalau ada orang yang perhatian
+      sama dia.
+
+'
+    systemResponse: Kamu meninggalkan jejak remah roti, berharap dia akan mengikutinya
+      kembali padamu.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 15
+    addHope: 5
+    category: 0
+  - choiceText: "Jangan. Uangku lebih baik dipakai buat beli makananku sendiri. \r\n"
+    systemResponse: Logika menang hari ini. Dompetmu selamat, begitu juga harga dirimu.
+    addDistress: -5
+    addDenial: -10
+    addRumination: 0
+    addHope: 0
+    category: 0

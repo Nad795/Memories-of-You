@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 1_Q2_Tidakbalas
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: "Dia sudah tidak membalas pesanmu sejak kemarin sore\u2026\r\n"
+  choices:
+  - choiceText: Pasti HP dia rusak, nanti juga dia balas dan telepon aku.
+    systemResponse: Kamu menatap layar HP yang gelap, menunggu notif yang tak kunjung
+      datang.
+    addDistress: -5
+    addDenial: 15
+    addRumination: 0
+    addHope: 15
+    category: 0
+  - choiceText: Dia pasti buka HP untuk membalas chat yang sangat penting dahulu.
+    systemResponse: Kamu menciptakan skenario paling masuk akal agar dadamu tidak
+      sesak.
+    addDistress: 5
+    addDenial: 5
+    addRumination: 10
+    addHope: 0
+    category: 0
+  - choiceText: 'Dia sedang online tapi tidak membalasku. Ini sengaja.
+
+'
+    systemResponse: Status online itu menyala terang, membakar sedikit harapanmu.
+    addDistress: 20
+    addDenial: -20
+    addRumination: 0
+    addHope: -20
+    category: 0
