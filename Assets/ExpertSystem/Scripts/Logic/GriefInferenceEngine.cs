@@ -68,7 +68,7 @@ public class GriefInferenceEngine : MonoBehaviour
 
             case ChoiceCategory.CleanUpAction:
                 Debug.Log("Pemain memilih Clean Up. Pindah ke Acceptance.");
-                SceneManager.LoadScene("Bab5_Acceptance"); //SESUAIIN NAMANYA SAMA YG ASLI GIMANA
+                SceneManager.LoadScene("ES5"); //SESUAIIN NAMANYA SAMA YG ASLI GIMANA
                 break;
 
             case ChoiceCategory.Neutral:
@@ -85,7 +85,7 @@ public class GriefInferenceEngine : MonoBehaviour
             if (currentState.distress >= 80 || currentState.rumination >= 80 || currentState.questionCount > 10)
             {
                 Debug.Log("Pindah ke Anger.");
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Bab2_Anger"); //JANGAN LUPA GANTI YA NAMANYA !!!!!!!
+                UnityEngine.SceneManagement.SceneManager.LoadScene("ES2"); //JANGAN LUPA GANTI YA NAMANYA !!!!!!!
                 return;
             }
             if (currentState.hope >= 80 || currentState.denial >= 80)
@@ -93,7 +93,7 @@ public class GriefInferenceEngine : MonoBehaviour
                 Debug.Log("Notifikasi teman chat melihat mantan!");
                 currentState.hope = 0;
                 currentState.distress = 100;
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Bab2_Anger");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("ES2");
                 return;
             }
 
@@ -138,13 +138,13 @@ public class GriefInferenceEngine : MonoBehaviour
             }
         }
         //BAB 2: ANGER 
-        else if (currentScene.Contains("Bab2"))
+        else if (currentScene.Contains("ES2"))
         {
             //PERPINDAHAN BAB
-            if ((currentState.rumination >= 80 && currentState.distress < 80) || currentState.questionCount > 10)
+            if ((currentState.rumination >= 80 && currentState.distress < 80) || currentState.questionCount > 9)
             {
                 Debug.Log("SISTEM: Transisi ke Bargaining.");
-                SceneManager.LoadScene("Bab3_Bargaining");
+                SceneManager.LoadScene("ES3");
                 return;
             }
             //KONSEKUENSI
@@ -180,13 +180,13 @@ public class GriefInferenceEngine : MonoBehaviour
             }
         }
         // BAB 3: BARGAINING 
-        else if (currentScene.Contains("Bab3"))
+        else if (currentScene.Contains("ES3"))
         {
             //PERPINDAHAN BAB (TRANSISI)
             if (currentState.distress >= 80)
             {
                 Debug.Log("TRANSISI: Pindah ke Depression.");
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Bab4_Depression");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("ES4");
                 return;
             }
             if (currentState.hope >= 80)
@@ -194,13 +194,13 @@ public class GriefInferenceEngine : MonoBehaviour
                 Debug.Log("EVENT REALITY CRASH: Pemain melihat mantan bergandengan dengan orang lain!");
                 currentState.hope = 0;
                 currentState.distress = 100; // Hancur lebur
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Bab4_Depression");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("ES4");
                 return;
             }
-            if (currentState.questionCount > 10)
+            if (currentState.questionCount > 9)
             {
                 Debug.Log("TRANSISI: Batas waktu habis. Paksa transisi ke Depression.");
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Bab4_Depression");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("ES4");
                 return;
             }
             //KONSEKUENSI 
@@ -224,7 +224,7 @@ public class GriefInferenceEngine : MonoBehaviour
             }
         }
         //BAB 4: DEPRESSION
-        else if (currentScene.Contains("Bab4"))
+        else if (currentScene.Contains("ES4"))
         {
             //PERPINDAHAN BAB
             if (currentState.distress >= 90 && currentState.rationalChoiceCount >= 3)
@@ -284,7 +284,7 @@ public class GriefInferenceEngine : MonoBehaviour
             }
         }
         //BAB 5: ACCEPTANCE
-        else if (currentScene.Contains("Bab5"))
+        else if (currentScene.Contains("ES5"))
         {
             //VISUAL & AUDIO GLOBAL
             Debug.Log("VISUAL: Color Grading normal dengan sentuhan hangat (Golden Hour).");
