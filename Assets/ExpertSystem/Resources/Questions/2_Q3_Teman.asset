@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q3_Teman
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Temanmu bertanya, "Eh, tumben si dia kok nggak pernah kelihatan
+    lagi sama kamu?" Pertanyaan polos ini memicumu.
+
+'
+  choices:
+  - choiceText: 'Menjawab ketus: "Nggak tahu. Mati kali. Jangan sebut nama keramat
+      itu di depanku."'
+    systemResponse: Mulutmu setajam pisau. Kamu ingin dunia tahu betapa kamu membencinya.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 0
+    addHope: 0
+    category: 3
+  - choiceText: 'Tiba-tiba matamu berkaca-kaca dan kamu tidak bisa menjawab. Kamu
+      cuma menggeleng.
+
+'
+    systemResponse: Pertanyaan sederhana itu meruntuhkan benteng pertahananmu.
+    addDistress: 25
+    addDenial: 0
+    addRumination: -5
+    addHope: 0
+    category: 0
+  - choiceText: 'Mulai roasting dia habis-habisan di depan temanmu. "Tahu nggak sih,
+      aslinya dia tuh parah banget..."
+
+'
+    systemResponse: Kamu membakar reputasinya untuk menghangatkan hatimu yang dingin.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 25
+    addHope: 0
+    category: 0

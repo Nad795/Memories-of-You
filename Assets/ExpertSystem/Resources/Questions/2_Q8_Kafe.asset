@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q8_Kafe
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kamu sedang duduk sendirian di toko kopi. Di meja sebelah, ada sekelompok
+    sahabat yang tertawa keras. Suara tawa mereka terdengar sangat menyakitkan dan
+    mengejek di telingamu.
+
+'
+  choices:
+  - choiceText: 'Menatap mereka dengan sinis agar mereka diam dan berkata "Berisik
+      banget sih, nggak punya sopan santun."
+
+'
+    systemResponse: Kamu mendoakan keburukan bagi orang lain agar kamu tidak merasa
+      sendirian dalam penderitaan.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 10
+    addHope: 0
+    category: 0
+  - choiceText: Langsung membereskan barang dan pergi. "Aku nggak bisa ada di sini."
+    systemResponse: Kamu lari, tapi suara tawa itu tetap mengejarmu sampai ke parkiran.
+    addDistress: 10
+    addDenial: 5
+    addRumination: 0
+    addHope: 0
+    category: 9
+  - choiceText: Aku pura-pura ke toilet aja dan aku senggol kursi mereka
+    systemResponse: Kamu ingin merusak kebahagiaan mereka seperti kebahagiaanmu dirusak.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 3

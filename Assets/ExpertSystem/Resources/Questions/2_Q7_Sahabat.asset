@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q7_Sahabat
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Setelah perlakuannya kepadamu, masihkah kamu mau mempertahankannya
+    sebagai sahabat?
+  choices:
+  - choiceText: 'Sahabat? Jangan harap. Aku tidak butuh sahabat toxic seperti dia
+      di hidupku.
+
+'
+    systemResponse: Kamu membakar jembatan itu. Tidak ada jalan kembali, dan itu
+      melegakan.
+    addDistress: 0
+    addDenial: -20
+    addRumination: 5
+    addHope: 0
+    category: 0
+  - choiceText: 'Mungkin suatu saat nanti, tapi sekarang aku cuma ingin dia jauh-jauh
+      dari pandanganku.
+
+'
+    systemResponse: Kamu butuh jarak untuk bernapas, tapi belum sanggup membuang
+      kuncinya.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 0
+    addHope: 5
+    category: 0
+  - choiceText: 'Persahabatan tidak seharusnya menyakitkan begini. Dia tidak pantas
+      jadi temanku
+
+'
+    systemResponse: Kamu menaikkan standarmu. Dia tidak lagi lolos kualifikasi.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 10
+    addHope: -10
+    category: 0

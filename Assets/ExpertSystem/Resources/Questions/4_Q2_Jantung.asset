@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q2_Jantung
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Dadamu terasa aneh. Bukan sakit karena penyakit jantung, tapi ada
+    sensasi fisik yang nyata di sana.
+  choices:
+  - choiceText: Rasanya seperti ada batu besar yang menindih dadaku. Bernapas saja
+      terasa berat.
+    systemResponse: Beban emosionalmu kini mewujud menjadi gravitasi yang menghancurkan
+      tulang rusukmu.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 0
+  - choiceText: 'Ada lubang besar yang menganga. Angin dingin seolah masuk lewat
+      situ.
+
+'
+    systemResponse: Separuh jiwamu hilang, dan tubuhmu tidak tahu bagaimana berfungsi
+      tanpanya.
+    addDistress: 25
+    addDenial: 0
+    addRumination: 0
+    addHope: -10
+    category: 0
+  - choiceText: 'Aku tidak merasakan apa-apa. Jantungku berdetak, tapi rasanya kosong
+      dan mekanis. Sakitnya sudah hilang, diganti kebas.
+
+'
+    systemResponse: Kamu sudah sampai di titik di mana rasa sakit pun lelah untuk
+      hadir. Kamu menjadi kebas.
+    addDistress: 5
+    addDenial: 0
+    addRumination: -10
+    addHope: 0
+    category: 0

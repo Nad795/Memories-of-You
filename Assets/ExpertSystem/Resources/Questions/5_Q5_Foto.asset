@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 5_Q5_Foto
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: "Kamu sedang membersihkan galeri HP dan menemukan foto lama kalian
+    berdua. Melihat foto ini selalu membuatmu menangis. \r\n"
+  choices:
+  - choiceText: 'Aku tersenyum kecil mengingat momen itu, lalu lanjut menghapus foto
+      lainnya. Itu kenangan yang manis, tapi sudah berlalu.
+
+'
+    systemResponse: Kamu tersenyum bukan karena rindu, tapi karena kamu sudah selesai.
+    addDistress: -15
+    addDenial: 0
+    addRumination: -15
+    addHope: 0
+    category: 0
+  - choiceText: 'Sekarang, aku melihatnya biasa saja, seperti melihat foto orang
+      asing. Tidak ada rasa sakit lagi.
+
+'
+    systemResponse: Emosi di foto itu sudah menguap, menyisakan kertas digital kosong.
+    addDistress: -20
+    addDenial: 0
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: Sekarang, aku menghapusnya dengan tenang. Aku butuh ruang penyimpanan
+      untuk memori-memori baru yang lebih indah.
+    systemResponse: Kamu membersihkan rumahmu untuk menyambut tamu-tamu baru yang
+      lebih baik.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 0
+    addHope: 20
+    category: 0

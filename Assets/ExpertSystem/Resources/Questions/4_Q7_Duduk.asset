@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q7_Duduk
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: "Kamu sedang duduk di kelas. Orang-orang di sekitarmu berbicara,
+    dosen menjelaskan sesuatu, tapi suaranya terdengar jauh dan bergema. \r\n"
+  choices:
+  - choiceText: Aku hanya mengangguk kosong. Badanku ada di sini, tapi jiwaku entah
+      melayang ke mana.
+    systemResponse: Kamu menjadi hantu di hidupmu sendiri. Hadir tapi tidak ada.
+    addDistress: 10
+    addDenial: 10
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku menatap layar laptop dengan tatapan kosong. Aku tidak menyerap
+      satu kata pun.
+
+'
+    systemResponse: Dunia terus berputar bising, tapi kamu terjebak dalam gelembung
+      bisu.
+    addDistress: 15
+    addDenial: 0
+    addRumination: -10
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku ingin berteriak "Diam!" karena suara kehidupan di sekitar terasa
+      terlalu bising dan menyakitkan
+
+'
+    systemResponse: Suara tawa dan kehidupan orang lain terasa seperti serangan fisik
+      bagimu.
+    addDistress: 25
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 0

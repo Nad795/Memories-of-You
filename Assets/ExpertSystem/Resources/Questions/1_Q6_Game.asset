@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 1_Q6_Game
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Jam dinding menunjukkan pukul 11.00 malam. Biasanya, ini adalah jam
+    wajib kamu dan sahabatmu untuk login discord dan bermain game bersama hingga
+    pagi buta. PC-mu menyala, menampilkan desktop yang hening. Rasanya aneh sekali.
+  choices:
+  - choiceText: Aku akan login ke game yang biasa kami mainkan. Siapa tahu dia juga
+      sedang online dan mengajakku party bareng seperti biasa.
+    systemResponse: Kamu menunggu hantu.
+    addDistress: 0
+    addDenial: 10
+    addRumination: 0
+    addHope: 15
+    category: 0
+  - choiceText: 'Aku tetap akan main, tapi main game lain yang bisa solo. Aku butuh
+      hiburan untuk diriku sendiri.
+
+'
+    systemResponse: Kamu membunuh monster di game dengan ganas, mencoba membunuh
+      rasa sepimu.
+    addDistress: -5
+    addDenial: 5
+    addRumination: 5
+    addHope: 0
+    category: 0
+  - choiceText: 'Langsung mematikan komputer. Melihat ikon game itu saja membuat
+      dadaku sesak dan ingin muntah.
+
+'
+    systemResponse: Layar menjadi hitam. Pantulan wajahmu yang sedih terlihat jelas
+      di sana.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 0

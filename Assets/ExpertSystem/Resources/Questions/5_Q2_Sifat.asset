@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 5_Q2_Sifat
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Bagaimana menurutmu dengan sifatnya yang brengsek itu? Apakah kamu
+    masih mau menghubunginya lagi?
+
+'
+  choices:
+  - choiceText: 'Dia adalah guru yang jahat. Cara dia mengajar sakit, tapi berkat
+      dia, aku jadi tahu apa yang tidak aku mau.
+
+'
+    systemResponse: Kamu mengambil berlian pelajaran dari tumpukan lumpur masa lalu.
+    addDistress: 0
+    addDenial: 0
+    addRumination: -10
+    addHope: 10
+    category: 0
+  - choiceText: Kurasa kita memang tidak cocok. Memaksakan dua puzzle yang beda bentuk
+      cuma bakal merusak keduanya.
+    systemResponse: Kamu berhenti mencari siapa yang salah, dan mulai mengerti bahwa
+      kalian hanya berbeda.
+    addDistress: -10
+    addDenial: -10
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: 'Jujur, aku sudah lupa detail sifatnya. Energinya sudah nggak nyampe
+      ke aku lagi.
+
+'
+    systemResponse: Kebencian membutuhkan energi, dan kamu memilih menghemat energimu
+      untuk hal lain.
+    addDistress: 0
+    addDenial: 0
+    addRumination: -20
+    addHope: 0
+    category: 0

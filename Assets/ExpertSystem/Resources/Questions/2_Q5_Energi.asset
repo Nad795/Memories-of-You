@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q5_Energi
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Apakah kamu merasa waktu dan energi yang kamu berikan terbuang sia-sia
+    untuk orang yang bahkan tidak menghargaimu?
+
+'
+  choices:
+  - choiceText: Sangat sia-sia. Seharusnya waktu itu kuberikan untuk diriku sendiri
+      atau teman yang lebih tahu diri.
+    systemResponse: Penyesalan adalah harga mahal yang harus dibayar untuk sebuah
+      pelajaran.
+    addDistress: 0
+    addDenial: -10
+    addRumination: 10
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku merasa bodoh karena sudah berkorban begitu banyak untuk orang
+      yang pergi begitu mudah.
+
+'
+    systemResponse: Jangan memaki ketulusanmu. Yang salah adalah dia yang menyia-nyiakannya.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 5
+  - choiceText: 'Tidak sepenuhnya sia-sia, tapi aku marah karena dia tidak pernah
+      membalas usahaku sedikitpun.
+
+'
+    systemResponse: Kamu menuntut keadilan di tempat yang tidak memiliki hukum.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 15
+    addHope: 5
+    category: 0

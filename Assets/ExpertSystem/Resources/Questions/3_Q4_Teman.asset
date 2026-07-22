@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q4_Teman
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Kamu mulai membandingkan dirimu dengan teman-teman yang diposting
+    si dia.
+  choices:
+  - choiceText: 'Kalau saja aku lebih seru, humoris, dan cantik, pasti dia tidak
+      akan meninggalkanku.
+
+'
+    systemResponse: Kamu mencari kekurangan pada dirimu untuk membenarkan kepergiannya.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 15
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku harus segera glow up dan merubah penampilanku agar dia menyesal
+      dan memberikan aku pesan. Aku akan buktikan!
+
+'
+    systemResponse: Kamu ingin berubah bukan untuk dirimu, tapi sebagai tiket agar
+      dia kembali.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 10
+    addHope: 15
+    category: 0
+  - choiceText: 'Penampilanku dan sifatku tidak salah. Kalau dia tidak bisa menerimaku
+      apa adanya, itu urusan dia.
+
+'
+    systemResponse: Kamu sadar bahwa kamu tidak bisa memperbaiki apa yang tidak rusak.
+    addDistress: 10
+    addDenial: -5
+    addRumination: 0
+    addHope: 0
+    category: 0

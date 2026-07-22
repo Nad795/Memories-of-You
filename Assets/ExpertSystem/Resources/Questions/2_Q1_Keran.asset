@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q1_Keran
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Keran air di kamar mandi bocor. Biasanya dia yang jago memperbaiki
+    peralatan rumah yang rusak. Sekarang air membanjiri lantai. Kamu sedang memegang
+    kunci inggris, tapi keran itu tetap rusak.
+
+'
+  choices:
+  - choiceText: Membanting kunci inggris itu ke lantai sambil berteriak frustrasi.
+      "Kenapa semuanya jadi rusak begini sih?!
+    systemResponse: Kamu memaki benda mati karena orang yang seharusnya kamu maki
+      tidak ada di sini.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 3
+  - choiceText: 'Terduduk lemas di lantai basah. Menangis karena merasa tidak becus
+      mengurus hal sepele sendirian.
+
+'
+    systemResponse: Bukan kerannya yang membuatmu menangis, tapi ketiadaan dia yang
+      biasa memperbaikinya.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 0
+    addHope: -10
+    category: 5
+  - choiceText: Menelepon tukang servis dengan nada ketus. "Saya butuh orang sekarang
+      juga. Keran kamar mandi saya bocor. Tidak ada kata telat!"
+    systemResponse: Kamu melampiaskan kekacauan hatimu kepada orang asing yang tidak
+      bersalah.
+    addDistress: 5
+    addDenial: 0
+    addRumination: 10
+    addHope: 0
+    category: 0

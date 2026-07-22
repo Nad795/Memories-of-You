@@ -7,10 +7,10 @@ public class GriefInferenceEngine : MonoBehaviour
 
     [Header("Scene Targets")]
     [SerializeField]
-    private string angerSceneName = "Bab2_Anger";
+    private string angerSceneName = "ES2";
 
     [SerializeField]
-    private string acceptanceSceneName = "Bab5_Acceptance";
+    private string acceptanceSceneName = "ES5";
 
     private void Awake()
     {

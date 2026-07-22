@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 5_Q9_Penjelasan
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kamu tiba-tiba tersadar kembali bahwa kamu tidak pernah mendapatkan
+    permintaan maaf atau penjelasan yang layak dari dia.
+
+'
+  choices:
+  - choiceText: 'Tidak masalah. Aku sudah menciptakan closure-ku sendiri dengan menerima
+      bahwa kita memang tidak bisa bersahabat.
+
+'
+    systemResponse: Kamu memegang kunci kedamaianmu sendiri, tidak menunggu dia memberikannya.
+    addDistress: -10
+    addDenial: 0
+    addRumination: -20
+    addHope: 0
+    category: 0
+  - choiceText: 'Permintaan maafnya dan penjelasannya tidak akan mengubah apa-apa.
+      Tindakanku untuk bangkit adalah jawaban terbaik.
+
+'
+    systemResponse: Kamu sadar bahwa kata-kata 'maaf' tidak bisa memutar ulang waktu.
+    addDistress: 0
+    addDenial: -10
+    addRumination: 0
+    addHope: 15
+    category: 0
+  - choiceText: Jujur, aku lupa kalau dia belum minta maaf dan memberikan penjelasan.
+      Dia sudah nggak penting lagi buat dipikirin.
+    systemResponse: Dia menjadi begitu tidak relevan hingga kesalahannya pun kamu
+      lupakan.
+    addDistress: 0
+    addDenial: 0
+    addRumination: -25
+    addHope: 0
+    category: 0

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q2_Pergi
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kamu menganalisis alasan dia pergi. "Mungkin dia cuma butuh jarak
+    sebentar karena stress kuliah dan kerjaannya?"
+
+'
+  choices:
+  - choiceText: Benar juga. Ini cuma fase sesaat. Nanti kalau urusannya kelar, dia
+      pasti cari aku lagi.
+    systemResponse: Kamu mengubah 'perpisahan' menjadi 'jeda istirahat' di kepalamu
+      agar bisa bernapas.
+    addDistress: 0
+    addDenial: 15
+    addRumination: 0
+    addHope: 10
+    category: 6
+  - choiceText: 'Aku harus mengirimkan semangat tanpa menuntut balasan, biar dia
+      tahu aku suportif.
+
+'
+    systemResponse: Kamu berharap kebaikanmu akan menjadi mata uang untuk membeli
+      kembali hatinya.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 15
+    addHope: 15
+    category: 0
+  - choiceText: 'Orang sibuk tetap bisa kasih kabar. Alasan sibuk itu cuma cara halus
+      buat pergi.
+
+'
+    systemResponse: Kamu melihat di balik topeng 'sibuk'-nya. Itu adalah ketidaktertarikan.
+    addDistress: 10
+    addDenial: -10
+    addRumination: 0
+    addHope: 0
+    category: 0

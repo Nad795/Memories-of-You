@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q3_Makan
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Makanan favoritmu tersaji di meja. Dulu makanan ini selalu bisa
+    menaikkan mood-mu, tapi sekarang saat melihatnya, perutmu malah terasa mual.
+
+'
+  choices:
+  - choiceText: 'Aku merasa jijik melihat diriku sendiri. Aku tidak pantas makan
+      enak atau merasa senang saat hidupku hancur begini.
+
+'
+    systemResponse: Kamu menghukum tubuhmu karena kesalahan yang dituduhkan oleh
+      pikiranmu sendiri.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 20
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku makan satu-dua suap karena terpaksa, tapi rasanya hambar seperti
+      mengunyah kertas. Lidahku sudah mati rasa.
+
+'
+    systemResponse: Lidahmu kehilangan indranya, sama seperti hatimu kehilangan warnanya.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku memaksakan diri menelannya walau mual. Aku tahu tubuhku butuh
+      tenaga, meskipun jiwaku tidak ingin ada di sini.
+
+'
+    systemResponse: Langkah kecil yang berani. Kamu memilih untuk tetap hidup, satu
+      suapan demi satu suapan.
+    addDistress: -5
+    addDenial: 0
+    addRumination: 0
+    addHope: 5
+    category: 11

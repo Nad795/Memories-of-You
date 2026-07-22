@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q6_Tugas
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Kamu mencoba mengerjakan tugas kuliah, tapi sudah 30 menit kamu
+    hanya menatap layar kosong.
+
+'
+  choices:
+  - choiceText: 'Otakku rasanya macet total. Tulisan-tulisan itu cuma lewat tanpa
+      bisa aku cerna.
+
+'
+    systemResponse: Kesedihan itu seperti kabut tebal yang menyelimuti sinapsis otakmu.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 5
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku menutup laptop dengan kasar. "Percuma," pikirku. Aku merasa
+      bodoh dan tidak berguna.
+
+'
+    systemResponse: Kamu menghukum kemampuan kognitifmu yang sedang terluka.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 10
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku menutup laptop pelan-pelan. Hari ini otakku nggak mampu, mungkin
+      besok. Memaksakan diri cuma bikin makin rusak.
+
+'
+    systemResponse: Kamu mengakui batas kemampuanmu hari ini. Itu adalah bentuk kasih
+      sayang pada diri sendiri.
+    addDistress: 0
+    addDenial: -5
+    addRumination: -5
+    addHope: 0
+    category: 11

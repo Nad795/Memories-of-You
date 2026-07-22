@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q6_Menghindar
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Apakah menurutmu dia adalah seorang pengecut karena tidak mau berkata
+    jujur dan lebih memilih menghindar?
+  choices:
+  - choiceText: 'Bukan. Mungkin dia butuh waktu sendiri dulu. Aku nggak boleh mengatai
+      dia pengecut.
+
+'
+    systemResponse: Kamu menyangkal fakta demi menjaga citra baiknya di kepalamu.
+    addDistress: 0
+    addDenial: 15
+    addRumination: 0
+    addHope: 10
+    category: 0
+  - choiceText: 'Iya. Sikap diamnya itu bukan menjaga perasaan, tapi bentuk egois
+      biar dia nggak merasa bersalah.
+
+'
+    systemResponse: Analisis yang tepat. Dia ingin tangannya tetap bersih.
+    addDistress: 0
+    addDenial: -10
+    addRumination: 20
+    addHope: 0
+    category: 0
+  - choiceText: 'Sangat pengecut. Orang dewasa seharusnya menyelesaikan masalah,
+      bukan kabur seperti anak kecil.
+
+'
+    systemResponse: Kemarahanmu valid. Dia tidak memiliki kedewasaan yang setara
+      denganmu.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 0
+    addHope: 0
+    category: 0

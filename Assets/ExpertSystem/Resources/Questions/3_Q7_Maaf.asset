@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q7_Maaf
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Sebuah pikiran muncul, "Mungkin kalau aku minta maaf duluan (walaupun
+    aku nggak salah), masalah ini bisa selesai?"
+
+'
+  choices:
+  - choiceText: 'Aku rela minta maaf 1000 kali asalkan dia mau bicara lagi sama aku.
+      Harga diri nggak penting sekarang.
+
+'
+    systemResponse: Kamu meletakkan harga dirimu di bawah kakinya sebagai karpet
+      selamat datang.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 0
+    addHope: 20
+    category: 0
+  - choiceText: 'Coba tes ombak dengan minta maaf ringan. Lihat reaksinya gimana.
+
+'
+    systemResponse: Kamu bermain catur, mengorbankan bidak demi menyelamatkan raja.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 15
+    addHope: 5
+    category: 0
+  - choiceText: 'Tidak. Minta maaf saat nggak salah itu manipulatif dan cuma menunda
+      masalah sebenarnya.
+
+'
+    systemResponse: Kamu menolak untuk berlutut demi cinta yang salah.
+    addDistress: 5
+    addDenial: 0
+    addRumination: 0
+    addHope: -10
+    category: 0

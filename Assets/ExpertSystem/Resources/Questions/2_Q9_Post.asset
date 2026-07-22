@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 2_Q9_Post
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Baru beberapa minggu kalian tidak bicara, dia sudah memposting 
+    story di 2nd accountnya pergi ke Bali dengan teman barunya. Posisimu digantikan
+    begitu cepat.
+
+'
+  choices:
+  - choiceText: "\u201COh, jadi selama ini aku cuma ban serep? Baguslah.\u201D\r\n"
+    systemResponse: Rasa tidak berharga itu menyusup masuk, membuatmu meragukan kualitas
+      dirimu.
+    addDistress: 15
+    addDenial: 0
+    addRumination: 10
+    addHope: 0
+    category: 5
+  - choiceText: '"Dasar murahan. Gampang banget dia nempel sama orang lain dan langsung
+      dia jadiin sahabat baru. Ternyata dia emang nggak punya hati."
+
+'
+    systemResponse: Kamu menyerang karakternya karena egomu terluka parah.
+    addDistress: 20
+    addDenial: 0
+    addRumination: 15
+    addHope: 0
+    category: 3
+  - choiceText: 'Langsung memblokir akunnya saat itu juga. "Aku nggak sudi lihat
+      muka pengkhianat itu lagi."
+
+'
+    systemResponse: ' Blokir adalah satu-satunya kendali yang kamu miliki saat ini.'
+    addDistress: -5
+    addDenial: 0
+    addRumination: 10
+    addHope: 0
+    category: 0

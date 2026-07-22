@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 1_Q3_Curiga
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Apakah mungkin kecurigaanmu bisa saja hanya karena kamu merasa lelah
+    dan sensitif?
+  choices:
+  - choiceText: 'Jelas aku yang salah. Aku lagi capek, jadi sensi. '
+    systemResponse: Lebih mudah menyalahkan diri sendiri daripada menyalahkan ketidakpeduliannya.
+    addDistress: -5
+    addDenial: 10
+    addRumination: 0
+    addHope: 0
+    category: 0
+  - choiceText: Sepertinya gaya komunikasinya memang begitu, aku saja yang membacanya
+      dengan nada yang berbeda karena overthinking.
+    systemResponse: Kamu merendahkan intuisimu sendiri demi menjaga kedamaian pikiran.
+    addDistress: 0
+    addDenial: 5
+    addRumination: 20
+    addHope: 0
+    category: 0
+  - choiceText: Firasatku jarang salah. Tapi kalau aku bahas sekarang, pasti kami
+      akan berantem. Lebih baik aku diam saja.
+    systemResponse: Kamu memilih damai dalam kebohongan daripada perang dalam kebenaran.
+    addDistress: 10
+    addDenial: -5
+    addRumination: 5
+    addHope: 0
+    category: 0

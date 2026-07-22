@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 4_Q5_Malam
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: Malam hari adalah musuh terbesarmu. Saat lampu dimatikan dan suasana
+    hening, pikiran buruk mulai berisik di kepalamu.
+  choices:
+  - choiceText: 'Aku berharap aku nggak usah bangun lagi besok pagi. Capek menghadapi
+      hari yang sama terus.
+
+'
+    systemResponse: Kamu tidak ingin mati, kamu hanya ingin rasa sakit ini berhenti.
+      Tidur selamanya terdengar damai.
+    addDistress: 30
+    addDenial: 0
+    addRumination: 0
+    addHope: -20
+    category: 10
+  - choiceText: 'Aku begadang sampai subuh nonton video random, cuma biar otakku
+      nggak sempat mikirin dia.
+
+'
+    systemResponse: Cahaya layar HP menjadi satu-satunya temanmu mengebas rasa sepi.
+    addDistress: 5
+    addDenial: 10
+    addRumination: 0
+    addHope: 0
+    category: 9
+  - choiceText: 'Aku memejamkan mata dan mengatur napas. Kalau nggak bisa tidur,
+      ya sudah. Aku cuma butuh istirahat, nggak harus tidur.
+
+'
+    systemResponse: Kamu berhenti melawan insomniamu. Kamu berdamai dengan malam
+      yang panjang.
+    addDistress: -5
+    addDenial: 0
+    addRumination: -10
+    addHope: 0
+    category: 11

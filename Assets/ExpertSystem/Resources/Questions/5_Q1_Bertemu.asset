@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 5_Q1_Bertemu
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Bagaimana kalau suatu hari nanti kalian tidak sengaja bertemu lagi?
+
+'
+  choices:
+  - choiceText: 'Aku akan menyapanya sekilas sebagai kenalan lama, lalu lanjut berjalan.
+      Tidak ada drama, tidak ada obrolan panjang.
+
+'
+    systemResponse: Kamu menetapkan batasan dengan elegan. Dia hanya masa lalu yang
+      lewat.
+    addDistress: -10
+    addDenial: 0
+    addRumination: -10
+    addHope: 0
+    category: 0
+  - choiceText: 'Aku mungkin tidak akan menyadarinya. Wajahnya sudah mulai kabur
+      di ingatanku.
+
+'
+    systemResponse: Otakmu secara alami menghapus data yang sudah tidak penting.
+      Itu tanda kesembuhan.
+    addDistress: 0
+    addDenial: -10
+    addRumination: 0
+    addHope: 5
+    category: 0
+  - choiceText: 'Aku akan tersenyum sopan. Aku sudah memaafkan masa lalu, jadi tidak
+      ada alasan untuk buang muka.
+
+'
+    systemResponse: Senyum itu bukan untuk dia, tapi untuk dirimu sendiri yang berhasil
+      berdamai.
+    addDistress: 0
+    addDenial: 0
+    addRumination: -15
+    addHope: 5
+    category: 0

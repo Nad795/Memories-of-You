@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1044986b35e39234b8bc84db5118e1b4, type: 3}
+  m_Name: 3_Q5_Notif
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  mainQuestion: 'Ada notif pesan dari temanmu yang berkata bahwa dia melihat si ***
+    di cafe alka.
+
+'
+  choices:
+  - choiceText: 'Aku akan kebetulan ingin ke cafe itu sekarang. Siapa tahu kami bertemu
+      dan bisa ngobrol santai.
+
+'
+    systemResponse: Kamu merancang 'kebetulan' karena takdir tidak lagi mempertemukan
+      kalian.
+    addDistress: 10
+    addDenial: 0
+    addRumination: 0
+    addHope: 25
+    category: 6
+  - choiceText: 'Aku titip salam saja, biar dia tahu aku masih eksis.
+
+'
+    systemResponse: Kamu melambai dari kejauhan, berharap dia menoleh.
+    addDistress: 0
+    addDenial: 0
+    addRumination: 10
+    addHope: 5
+    category: 0
+  - choiceText: 'Jangan ke sana. Itu cuma akan bikin canggung dan merusak hariku.
+
+'
+    systemResponse: Kamu menahan kakimu demi menjaga kewarasanmu.
+    addDistress: 5
+    addDenial: 0
+    addRumination: -5
+    addHope: 0
+    category: 0
