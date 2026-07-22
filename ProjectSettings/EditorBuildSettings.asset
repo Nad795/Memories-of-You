@@ -5,6 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Prototype/MachinePrototype/Gift3D.unity
+    guid: e0a2d894f5d03b14ba2346cab2564176
+  - enabled: 1
+    path: Assets/Prototype/MachinePrototype/Scheduling.unity
+    guid: 1df635c82c756ff43a3306d45134df19
+  - enabled: 1
+    path: Assets/Prototype/MainMenu/MainMenu.unity
+    guid: 04a82d1cbe7d2ce4d8c9db73402d4935
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
