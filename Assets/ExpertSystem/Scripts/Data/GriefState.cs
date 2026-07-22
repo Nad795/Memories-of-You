@@ -49,6 +49,8 @@ public class GriefState : ScriptableObject
         avoidanceChoiceCount = 0;
         passiveSuicidalChoiceCount = 0;
         rationalChoiceCount = 0;
+        finalEndingName = string.Empty;
+        isEndingTriggered = false;
     }
 
     //menambah/mengurangi emosi agar tidak tembus batas 0-100

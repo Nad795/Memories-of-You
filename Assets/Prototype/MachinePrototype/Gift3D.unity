@@ -3650,7 +3650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CashierCheckoutStation
   checkoutPopup: {fileID: 1847707518}
   loadSceneOnConfirm: 1
-  completionSceneName: Scheduling
+  completionSceneName: ES1
+  requiredItemCount: 6
   emptyInventoryMessage: Your basket is empty.
   confirmMessageFormat: 'Warning: this will end your current daily task. Proceed
     to pay for {0} item(s)?'
@@ -4137,7 +4138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DailyTaskExitDoor
   exitPopup: {fileID: 1847707518}
   loadSceneOnConfirm: 1
-  completionSceneName: Scheduling
+  completionSceneName: ES1
   exitWarningMessage: 'Warning: leaving now will end your current daily task without
     buying anything. Are you sure you want to leave?'
   blockedExitMessage: You cannot leave while carrying items. Return them or check
